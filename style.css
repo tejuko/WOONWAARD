@@ -5,6 +5,10 @@ body {
     background-color: #f4f4f4;
 }
 
+body h1 {
+    padding: 0 0 0 1em;
+}
+
 header {
     align-items: center;
     background-color: #6c765c;
@@ -16,7 +20,7 @@ header {
 }
 
 header h1{
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: bold;
     padding: 0;
     margin: 0;
@@ -30,7 +34,9 @@ header p {
     margin: 0.5em 0;
 }
 
-section img {
+.nee {
+    display: flex;
+    justify-content: center;
     width: 100%;
     align-items: center;
 }
@@ -44,7 +50,7 @@ main {
     box-sizing: border-box;
 }
 
-main img {
+main > img{
     width: 100%;
     height: auto;
     border-radius: 8px;
@@ -52,6 +58,50 @@ main img {
 }
 
 footer {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(min(37.5em, 100%), 1fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer > img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.linkjes {
+    text-align: center;
+  }
+
+.linkjes h1 {
+    text-align: start;
+    padding: 0 0 0 1em;
+}
+
+.linkjes button {
+    text-align: center;
+    border: none;
+    border-radius: 1em;
+    padding: 1.5em;
+    margin: 0.5em;
+    background-color: #6c765c;
+    cursor: pointer;
+}
+
+.linkjes a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    border: none;
+}
+
+/* footer {
     background-color: #6c765c;
     color: white;
     text-align: center;
@@ -60,4 +110,4 @@ footer {
     bottom: 0;
     width: 100%;
     box-sizing: border-box;
-}
+} */
