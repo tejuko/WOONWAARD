@@ -11,8 +11,8 @@ body h1 {
 
 header {
     align-items: center;
-    background-color: #6c765c;
-    color: white;
+    background-color: #bcecac;
+    color: black;
     text-align: center;
     width: 100%;
     box-sizing: border-box;
@@ -88,14 +88,14 @@ footer > img{
     border-radius: 1em;
     padding: 1.5em;
     margin: 0.5em;
-    background-color: #6c765c;
+    background-color: #bcecac;
     cursor: pointer;
 }
 
 .linkjes a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 3em;
     border: none;
@@ -110,15 +110,15 @@ body .petitie {
     border: none;
     border-radius: 1em;
     padding: 1.5em;
-    margin: 0.5em;
-    background-color: #6c765c;
+    margin: 1em;
+    background-color: #bcecac;
     cursor: pointer; 
 }
 
 body .petitie a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 3em;
     border: none;
